@@ -1,0 +1,32 @@
+[
+  {
+    "product_id": 102,
+    "category": "Laptops",
+    "slug": "gaming-laptop"
+  },
+  {
+    "product_id": 103,
+    "category": "Phone",
+    "slug": "android-phone"
+  },
+  {
+    "product_id": 104,
+    "category": "Accessories",
+    "slug": "wireless-headphones"
+  },
+  {
+    "product_id": 105,
+    "category": "Smart Watches",
+    "slug": "fitness-smart-watch"
+  },
+  {
+    "product_id": 106,
+    "category": "MacBook",
+    "slug": "macbook-pro"
+  },
+  {
+    "product_id": 107,
+    "category": "iPhone",
+    "slug": "iphone-14-pro"
+  }
+]

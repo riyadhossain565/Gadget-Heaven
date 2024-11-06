@@ -1,0 +1,240 @@
+[
+  {
+    "product_id": 101,
+    "category": "Laptops",
+    "slug": "dell-xps-15",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/CKwF5Rc/Dell-XPS-15-3-3-600x450.webp",
+    "price": 1499.99,
+    "description": "High-performance Dell XPS 15 laptop with NVIDIA GTX graphics and Intel i7 processor.",
+    "Specification": [
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GTX 1650",
+      "15.6 inch FHD display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 102,
+    "category": "Phone",
+    "slug": "samsung-galaxy-s21",
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "https://i.ibb.co.com/NjwTjhx/2101-34043.jpg",
+    "price": 799.99,
+    "description": "Samsung Galaxy S21 with 120Hz display, triple-camera setup, and 5G capability.",
+    "Specification": [
+      "8GB RAM",
+      "128GB Storage",
+      "64MP Camera",
+      "6.2 inch display"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 103,
+    "category": "Laptops",
+    "slug": "hp-spectre-x360",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/n6YTQR6/Hp-9-1.webp",
+    "price": 1349.99,
+    "description": "HP Spectre x360 with flexible design, Intel i7 processor, and vibrant display.",
+    "Specification": [
+      "16GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics",
+      "13.3 inch touchscreen"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 104,
+    "category": "Accessories",
+    "slug": "apple-airpods-pro",
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://i.ibb.co.com/wSfdrKr/Apple-Air-Pods-Pro-3-release-date-predictions-price-specs-and-must-know-features.jpg",
+    "price": 249.99,
+    "description": "Apple AirPods Pro with active noise cancellation and adaptive transparency mode.",
+    "Specification": [
+      "Active Noise Cancellation",
+      "Transparency Mode",
+      "4.5 hours listening time",
+      "In-ear design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 105,
+    "category": "Laptops",
+    "slug": "lenovo-thinkpad-x1-carbon",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://i.ibb.co.com/tHbjK21/Lenovo-Think-Pad-X1-Carbon-Gen-11-2023-MC-Solution-BD-1200x675.webp",
+    "price": 1399.99,
+    "description": "Lenovo ThinkPad X1 Carbon with Intel i7 processor and ultra-lightweight build.",
+    "Specification": [
+      "16GB RAM",
+      "512GB SSD",
+      "Intel UHD Graphics",
+      "14 inch FHD display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 106,
+    "category": "Smart Watches",
+    "slug": "samsung-galaxy-watch-5",
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "https://i.ibb.co.com/WGP7PwH/Samsung-Galaxy-Watch-5-Pro-review-11.webp",
+    "price": 279.99,
+    "description": "Samsung Galaxy Watch 5 with advanced health tracking and rugged design.",
+    "Specification": [
+      "Heart Rate Monitor",
+      "GPS",
+      "Waterproof",
+      "1.4 inch Super AMOLED display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 107,
+    "category": "Laptops",
+    "slug": "macbook-air-m2",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/RQdPVvb/CMC-1580.webp",
+    "price": 1199.99,
+    "description": "Lightweight MacBook Air with M2 chip and high-resolution Retina display.",
+    "Specification": [
+      "8GB RAM",
+      "256GB SSD",
+      "M2 Chip",
+      "13.6 inch Retina display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 108,
+    "category": "Phone",
+    "slug": "google-pixel-6a",
+    "product_title": "Google Pixel 6a",
+    "product_image": "https://i.ibb.co.com/sjd6kMt/J5n772-Co-MWu3kboj7qs-CPL-1200-80.jpg",
+    "price": 449.99,
+    "description": "Google Pixel 6a with clean Android experience and excellent camera quality.",
+    "Specification": [
+      "6GB RAM",
+      "128GB Storage",
+      "12MP Camera",
+      "6.1 inch display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 109,
+    "category": "Accessories",
+    "slug": "sony-wh-1000xm4",
+    "product_title": "Sony WH-1000XM4",
+    "product_image": "https://i.ibb.co.com/TbQT9Mw/Sony-WH-1000-XM4-Wireless-Headphones-7.jpg",
+    "price": 299.99,
+    "description": "Sony WH-1000XM4 wireless noise-cancelling headphones with long battery life.",
+    "Specification": [
+      "Bluetooth 5.0",
+      "Noise Cancellation",
+      "30 hours battery life",
+      "Over-ear design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 110,
+    "category": "Laptops",
+    "slug": "asus-rog-zephyrus",
+    "product_title": "ASUS ROG Zephyrus",
+    "product_image": "https://i.ibb.co.com/mBrD1LK/4zu3-Asus-Zephyrus-Duo-15-GX550-LXS.jpg",
+    "price": 1799.99,
+    "description": "ASUS ROG Zephyrus gaming laptop with AMD Ryzen 9 processor and NVIDIA RTX 3070.",
+    "Specification": [
+      "16GB RAM",
+      "1TB SSD",
+      "NVIDIA RTX 3070",
+      "15.6 inch display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 111,
+    "category": "Smart Watches",
+    "slug": "fitbit-versa-3",
+    "product_title": "Fitbit Versa 3",
+    "product_image": "https://i.ibb.co.com/0CpfNCp/Fitbit-Versa-3-1.jpg",
+    "price": 229.99,
+    "description": "Fitbit Versa 3 with built-in GPS and heart rate tracking for active lifestyles.",
+    "Specification": [
+      "Heart Rate Monitor",
+      "GPS",
+      "6 days battery life",
+      "1.58 inch AMOLED display"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 112,
+    "category": "Laptops",
+    "slug": "acer-predator-helios-300",
+    "product_title": "Acer Predator Helios 300",
+    "product_image": "https://i.ibb.co.com/swqDsks/634005433f4f712dd4290459-acer-predator-helios-300-gaming-laptop.jpg",
+    "price": 1199.99,
+    "description": "Acer Predator Helios 300 gaming laptop with NVIDIA GTX 1660 Ti and powerful cooling.",
+    "Specification": [
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GTX 1660 Ti",
+      "15.6 inch FHD display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 113,
+    "category": "MacBook",
+    "slug": "macbook-pro-14",
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "https://i.ibb.co.com/zrRTnX0/xz-RAKq-GCz-AAmw-CVDj-TSSp-W.jpg",
+    "price": 1999.99,
+    "description": "MacBook Pro 14-inch with M1 Pro chip and XDR display for powerful performance.",
+    "Specification": [
+      "M1 Pro Chip",
+      "16GB RAM",
+      "512GB SSD",
+      "14 inch Liquid Retina XDR display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 114,
+    "category": "MacBook",
+    "slug": "macbook-air-m2",
+    "product_title": "MacBook Air M3",
+    "product_image": "https://i.ibb.co.com/dkJ2J1W/p-HBy4-Dzou-Bq-Lo-Wy7-Ju-Ct-DU.jpg",
+    "price": 1199.99,
+    "description": "Lightweight MacBook Air with M2 chip and high-resolution Retina display.",
+    "Specification": [
+      "8GB RAM",
+      "256GB SSD",
+      "M3 Chip",
+      "13.6 inch Retina display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  }
+]

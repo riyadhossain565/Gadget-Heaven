@@ -17,7 +17,7 @@ const Categories = ({ categories }) => {
         <NavLink
           to={`/gadget/${category.category}`}
           className={({ isActive }) =>
-            `px-6 py-2 border rounded-full bg-[#09080F0D] ${
+            `px-3 lg:px-6 py-2 border rounded-full bg-[#09080F0D] ${
               isActive ? "bg-purple-500" : ""
             }`
           }

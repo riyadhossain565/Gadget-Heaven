@@ -1,19 +1,31 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addCart, addWishList, getAllCart } from "../utils";
 
 const ProductDetails = () => {
   const data = useLoaderData();
   const { product_id } = useParams();
   const [product, setProduct] = useState({ Specification: [] });
+
   useEffect(() => {
     const singleData = data.find((product) => product.product_id == product_id);
     setProduct(singleData);
   }, [data, product_id]);
 
+  // Handle Cart
+  const handleCart = (product) => {
+    addCart(product);
+  };
+
+  // Handle Wish List
+  const handleWishList = (product) => {
+    addWishList(product);
+  };
+
   return (
     <div className="bg-[#09080F0D] relative lg:pb-96">
       <div>
-        <div className=" bg-purple-500 py-8 lg:pb-40 text-center">
+        <div className=" bg-purple-500 py-8 lg:pb-40 text-center mb-2">
           <h1 className="text-4xl font-bold px-10 lg:px-28 text-white">
             Product Details
           </h1>
@@ -25,12 +37,12 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div className="w-3/5 mx-auto bg-white rounded-xl lg:absolute left-64 top-40">
+      <div className="w-5/6 lg:w-3/5 mx-auto bg-white rounded-xl lg:absolute left-64 top-40">
         <div className="flex gap-6 p-4  justify-center items-start flex-col lg:flex-row">
           <div>
             <img
               src={product.product_image}
-              className="w-96 h-[420px] object-cover rounded-lg shadow-2xl"
+              className="w-96 h-[420px] scale-x-100 scale-y-75 rounded-lg shadow-2xl"
             />
           </div>
           <div>
@@ -79,7 +91,10 @@ const ProductDetails = () => {
               </span>
             </div>
             <div className=" flex lg:gap-4 py-2">
-              <button className="flex gap-3 px-4 py-2 font-bold bg-purple-600 text-white rounded-full">
+              <button
+                onClick={() => handleCart(product)}
+                className="flex gap-3 px-4 py-2 font-bold bg-purple-600 text-white rounded-full"
+              >
                 Add to Cart
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +111,10 @@ const ProductDetails = () => {
                   />
                 </svg>
               </button>
-              <button className="border p-2 rounded-full">
+              <button
+                onClick={() => handleWishList(product)}
+                className="border p-2 rounded-full"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

@@ -1,8 +1,12 @@
-import React from "react";
+import { Helmet } from "react-helmet-async";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
     <div>
+      <Helmet>
+        <title>Dashboard | Gadgets Heaven</title>
+      </Helmet>
       <div className=" bg-purple-500 py-8 text-center">
         <h1 className="text-4xl font-bold px-10 lg:px-28 text-white">
           Dashboard
@@ -13,20 +17,34 @@ const Dashboard = () => {
           to the coolest accessories, we have it all!
         </p>
         <div className="flex justify-center gap-5 my-2">
-          <button
-            className="text-lg text-purple-600 px-10 py-2 bg-white rounded-full hover:bg-purple-600 hover:text-white"
-            onClick={() => handleMarkAsRead(bookId)}
+          <NavLink
+            to="/dashboard"
+            className={({ isActive }) =>
+              `text-lg px-12 py-2 border rounded-full ${
+                isActive
+                  ? "bg-purple-600 text-white"
+                  : "bg-white text-purple-600"
+              }`
+            }
           >
             Cart
-          </button>
-          <button
-            className="text-lg bg-purple-500 text-white px-10 py-2 rounded-full border hover:text-purple-600 hover:bg-white"
-            onClick={() => handleAddToWish(bookId)}
+          </NavLink>
+
+          <NavLink
+            to="/dashboard/wishlist"
+            className={({ isActive }) =>
+              `text-lg px-10 py-2 rounded-full ${
+                isActive
+                  ? "bg-purple-600 text-white"
+                  : "bg-white text-purple-600"
+              }`
+            }
           >
-            WishList
-          </button>
+            Wish List
+          </NavLink>
         </div>
       </div>
+      <Outlet></Outlet>
     </div>
   );
 };

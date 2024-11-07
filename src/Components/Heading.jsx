@@ -4,8 +4,8 @@ const Heading = ({ title, subtitle }) => {
   const navigate = useNavigate();
   return (
     <div className="relative">
-      <div className="w-[95%] p-2 border mx-auto rounded-xl backdrop-blur-xl">
-        <div className=" bg-purple-500 py-14 rounded-xl pb-40 text-center">
+      <div className="w-[95%] px-2 pb-2 border-x border-b mx-auto rounded-b backdrop-blur-xl">
+        <div className=" bg-purple-500 py-14 rounded-b pb-40 text-center">
           <h1 className="text-5xl font-bold px-10 lg:px-28 text-white">
             {title}
           </h1>

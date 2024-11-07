@@ -5,11 +5,15 @@ import Dashboard from "../Pages/Dashboard";
 import Statistics from "../Pages/Statistics";
 import GadgetCards from "../Components/GadgetCards";
 import ProductDetails from "../Pages/ProductDetails";
+import Carts from "../Components/Carts";
+import WishCart from "../Components/WishCart";
+import ErrorPage from "../Components/ErrorPage";
 
 const Routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -36,6 +40,16 @@ const Routes = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+        children: [
+          {
+            path: "/dashboard",
+            element: <Carts />,
+          },
+          {
+            path: "/dashboard/wishlist",
+            element: <WishCart />,
+          },
+        ],
       },
       {
         path: "/products/:product_id",

@@ -62,7 +62,7 @@ const Navbar = () => {
                 to="/"
                 className={({ isActive }) =>
                   `font-bold 
-                ${isActive ? "text-purple-500" : "hover:text-purple-500"}
+                ${isActive ? "text-purple-500" : "hover:text-purple-800"}
                 ${homePage === "/" ? "text-white underline" : ""}`
                 }
               >
@@ -72,9 +72,9 @@ const Navbar = () => {
                 to="/statistics"
                 className={({ isActive }) =>
                   `font-bold ${
-                    isActive ? "text-purple-500" : "hover:text-purple-500"
+                    isActive ? "text-purple-500" : "hover:text-purple-800"
                   }
-                  ${homePage === "/" ? "text-white hover:text-black" : ""}`
+                  ${homePage === "/" ? "text-white" : ""}`
                 }
               >
                 Statistics
@@ -83,9 +83,9 @@ const Navbar = () => {
                 to="/dashboard"
                 className={({ isActive }) =>
                   `font-bold ${
-                    isActive ? "text-purple-500" : "hover:text-purple-500"
+                    isActive ? "text-purple-500" : "hover:text-purple-800"
                   }
-                  ${homePage === "/" ? "text-white hover:text-black" : ""}`
+                  ${homePage === "/" ? "text-white" : ""}`
                 }
               >
                 Dashboard
@@ -94,9 +94,9 @@ const Navbar = () => {
                 to="/contactus"
                 className={({ isActive }) =>
                   `font-bold ${
-                    isActive ? "text-purple-500" : "hover:text-purple-500"
+                    isActive ? "text-purple-500" : "hover:text-purple-800"
                   }
-                  ${homePage === "/" ? "text-white hover:text-black" : ""}`
+                  ${homePage === "/" ? "text-white" : ""}`
                 }
               >
                 Contact Us

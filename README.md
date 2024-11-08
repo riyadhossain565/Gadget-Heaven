@@ -1,6 +1,6 @@
 # Gadget Heaven - Your go-to destination for the latest and greatest gadgets
 
-live link
+live link (https://gadget-heaven-riyad.netlify.app/)
 
 ## Requirement Document Link
 

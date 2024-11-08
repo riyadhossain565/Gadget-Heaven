@@ -48,14 +48,23 @@ const Carts = () => {
             <button
               onClick={handleSort}
               disabled={cartList.length === 0}
-              className="font-bold rounded-full px-5 py-2 mx-2 text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white"
+              className={`font-bold rounded-full px-5 py-2 mx-2 text-purple-600 border border-purple-600 ${
+                cartList.length === 0
+                  ? ""
+                  : "hover:bg-purple-600 hover:text-white"
+              }`}
             >
               Short By Price
             </button>
             <button
               onClick={handlePurchase}
               disabled={cartList.length === 0}
-              className="font-bold rounded-full px-5 py-2 text-white bg-purple-600 hover:bg-white hover:text-purple-600"
+              // className="font-bold rounded-full px-5 py-2 text-white bg-purple-600 hover:bg-white hover:text-purple-600"
+              className={`font-bold rounded-full px-5 py-2 text-white bg-purple-600 ${
+                cartList.length === 0
+                  ? ""
+                  : "hover:bg-white hover:text-purple-600"
+              }`}
             >
               Purchase
             </button>

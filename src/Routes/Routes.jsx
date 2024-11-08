@@ -8,6 +8,7 @@ import ProductDetails from "../Pages/ProductDetails";
 import Carts from "../Components/Carts";
 import WishCart from "../Components/WishCart";
 import ErrorPage from "../Components/ErrorPage";
+import ContactUs from "../Pages/ContactUs";
 
 const Routes = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const Routes = createBrowserRouter([
         path: "/products/:product_id",
         element: <ProductDetails />,
         loader: () => fetch("../gadgets.json"),
+      },
+      {
+        path: "/contactus",
+        element: <ContactUs />,
       },
     ],
   },

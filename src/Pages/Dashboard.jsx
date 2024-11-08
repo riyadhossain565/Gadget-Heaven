@@ -19,6 +19,7 @@ const Dashboard = () => {
         <div className="flex justify-center gap-5 my-2">
           <NavLink
             to="/dashboard"
+            end
             className={({ isActive }) =>
               `text-lg px-12 py-2 border rounded-full ${
                 isActive
@@ -33,7 +34,7 @@ const Dashboard = () => {
           <NavLink
             to="/dashboard/wishlist"
             className={({ isActive }) =>
-              `text-lg px-10 py-2 rounded-full ${
+              `text-lg px-10 py-2 rounded-full border ${
                 isActive
                   ? "bg-purple-600 text-white"
                   : "bg-white text-purple-600"

@@ -19,9 +19,13 @@ const GadgetCards = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {gadgets.map((gadget) => (
-        <Card key={gadget.product_id} gadget={gadget}></Card>
-      ))}
+      {gadgets.length ? (
+        gadgets.map((gadget) => (
+          <Card key={gadget.product_id} gadget={gadget}></Card>
+        ))
+      ) : (
+        <p className="text-3xl">No Gadgets Found</p>
+      )}
     </div>
   );
 };

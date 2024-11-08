@@ -45,6 +45,7 @@ const Navbar = () => {
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/statistics">Statistics</NavLink>
                 <NavLink to="/dashboard">Dashboard</NavLink>
+                <NavLink to="/contactus">contact Us</NavLink>
               </ul>
             </div>
             <NavLink
@@ -88,6 +89,17 @@ const Navbar = () => {
                 }
               >
                 Dashboard
+              </NavLink>
+              <NavLink
+                to="/contactus"
+                className={({ isActive }) =>
+                  `font-bold ${
+                    isActive ? "text-purple-500" : "hover:text-purple-500"
+                  }
+                  ${homePage === "/" ? "text-white hover:text-black" : ""}`
+                }
+              >
+                Contact Us
               </NavLink>
             </ul>
           </div>

@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="bg-[#09080F0D]">
       <Helmet>
-        <title>Home | Gadgets Heaven</title>
+        <title>Home | Gadget Heaven</title>
       </Helmet>
       {/* Header */}
       <div>

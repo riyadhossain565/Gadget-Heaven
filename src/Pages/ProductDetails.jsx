@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addCart, addWishList, getAllCart } from "../utils";
+import { Helmet } from "react-helmet-async";
 
 const ProductDetails = () => {
   const data = useLoaderData();
@@ -24,6 +25,9 @@ const ProductDetails = () => {
 
   return (
     <div className="bg-[#09080F0D] relative lg:pb-96">
+      <Helmet>
+        <title>Product Details | Gadget Heaven</title>
+      </Helmet>
       <div>
         <div className=" bg-purple-500 py-8 lg:pb-40 text-center mb-2">
           <h1 className="text-4xl font-bold px-10 lg:px-28 text-white">
